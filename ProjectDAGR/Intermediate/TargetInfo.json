@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ProjectDAGR",
+			"Path": "C:\\Users\\Christian\\Desktop\\Uni 2022\\Semester 2\\Data Arena\\DataArena\\ProjectDAGR\\Source\\ProjectDAGR.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ProjectDAGREditor",
+			"Path": "C:\\Users\\Christian\\Desktop\\Uni 2022\\Semester 2\\Data Arena\\DataArena\\ProjectDAGR\\Source\\ProjectDAGREditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
