@@ -1,0 +1,1337 @@
+﻿Log file open, 08/28/22 14:58:42
+LogInit: Display: Running engine for game: ProjectDAGR
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.189672
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin DA_Assets
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1060 3GB
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Engine.ini]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Engine.ini]
+[2022.08.28-04.58.42:787][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Engine.ini]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Engine.ini]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.08.28-04.58.42:787][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Engine.ini]
+[2022.08.28-04.58.42:787][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Engine.ini]
+[2022.08.28-04.58.42:792][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.08.28-04.58.42:792][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.08.28-04.58.42:793][  0]LogInit: Selected Device Profile: [Windows]
+[2022.08.28-04.58.42:793][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.08.28-04.58.42:793][  0]LogHAL: Display: Platform has ~ 8 GB [8538742784 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.08.28-04.58.42:793][  0]LogInit: Going up to parent DeviceProfile []
+[2022.08.28-04.58.42:793][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.08.28-04.58.42:793][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Scalability.ini]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.08.28-04.58.42:794][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.08.28-04.58.42:795][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.08.28-04.58.42:795][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.08.28-04.58.42:795][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.08.28-04.58.42:795][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Config/Windows/Engine.ini]
+[2022.08.28-04.58.42:795][  0]LogInit: Computer: DESKTOP-8HLFDQ9
+[2022.08.28-04.58.42:795][  0]LogInit: User: USER
+[2022.08.28-04.58.42:795][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.08.28-04.58.42:795][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.08.28-04.58.42:795][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2022.08.28-04.58.42:795][  0]LogMemory: Platform Memory Stats for Windows
+[2022.08.28-04.58.42:795][  0]LogMemory: Process Physical Memory: 120.95 MB used, 120.96 MB peak
+[2022.08.28-04.58.42:795][  0]LogMemory: Process Virtual Memory: 100.14 MB used, 100.14 MB peak
+[2022.08.28-04.58.42:795][  0]LogMemory: Physical Memory: 5683.27 MB used,  2459.91 MB free, 8143.18 MB total
+[2022.08.28-04.58.42:795][  0]LogMemory: Virtual Memory: 5170.33 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2022.08.28-04.58.42:799][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.08.28-04.58.42:843][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.08.28-04.58.42:844][  0]LogInit: Using OS detected language (en-US).
+[2022.08.28-04.58.42:844][  0]LogInit: Using OS detected locale (en-AU).
+[2022.08.28-04.58.42:847][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.08.28-04.58.43:019][  0]LogInit: Setting process to per monitor DPI aware
+[2022.08.28-04.58.43:051][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.08.28-04.58.43:051][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.08.28-04.58.43:171][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.08.28-04.58.43:171][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.08.28-04.58.43:171][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.08.28-04.58.43:171][  0]LogD3D11RHI: D3D11 adapters:
+[2022.08.28-04.58.43:266][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2022.08.28-04.58.43:266][  0]LogD3D11RHI:       2988/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.08.28-04.58.43:269][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.08.28-04.58.43:269][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.08.28-04.58.43:269][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.08.28-04.58.43:276][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.08.28-04.58.43:276][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2022.08.28-04.58.43:276][  0]LogWindows: EnumDisplayDevices:
+[2022.08.28-04.58.43:276][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2022.08.28-04.58.43:276][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
+[2022.08.28-04.58.43:277][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2022.08.28-04.58.43:277][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2022.08.28-04.58.43:277][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.08.28-04.58.43:277][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2022.08.28-04.58.43:277][  0]LogD3D11RHI:   Driver Version: 512.15 (internal:30.0.15.1215, unified:512.15)
+[2022.08.28-04.58.43:277][  0]LogD3D11RHI:      Driver Date: 3-17-2022
+[2022.08.28-04.58.43:277][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
+[2022.08.28-04.58.43:328][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.08.28-04.58.43:328][  0]LogD3D11RHI: Async texture creation enabled
+[2022.08.28-04.58.43:328][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.08.28-04.58.43:330][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061085).
+[2022.08.28-04.58.43:356][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.08.28-04.58.43:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.08.28-04.58.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.08.28-04.58.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.08.28-04.58.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.08.28-04.58.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.08.28-04.58.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.08.28-04.58.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.08.28-04.58.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.08.28-04.58.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.08.28-04.58.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.08.28-04.58.43:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.08.28-04.58.43:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.08.28-04.58.43:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.08.28-04.58.43:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.08.28-04.58.43:689][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.08.28-04.58.43:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.08.28-04.58.43:708][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.08.28-04.58.43:716][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.08.28-04.58.43:724][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.08.28-04.58.43:733][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.08.28-04.58.43:761][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.08.28-04.58.43:761][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.08.28-04.58.43:778][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.08.28-04.58.43:778][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.08.28-04.58.43:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.08.28-04.58.43:797][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.08.28-04.58.43:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.08.28-04.58.43:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.08.28-04.58.43:815][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.08.28-04.58.43:821][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.08.28-04.58.43:872][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Intermediate/Shaders/WorkingDirectory/13144/).
+[2022.08.28-04.58.43:872][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/USER/AppData/Local/Temp/UnrealShaderWorkingDir/7BDB2E74487008337CF6DE86BFDD7C17/'.
+[2022.08.28-04.58.43:872][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.08.28-04.58.43:872][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.08.28-04.58.43:872][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.08.28-04.58.44:515][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.08.28-04.58.44:579][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/USER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.08.28-04.58.44:579][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/USER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.08.28-04.58.44:580][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.08.28-04.58.44:580][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.08.28-04.58.44:580][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.08.28-04.58.44:580][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.08.28-04.58.44:588][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.08.28-04.58.44:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.08.28-04.58.44:588][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.08.28-04.58.44:590][  0]LogDerivedDataCache: Using Local data cache path C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.08.28-04.58.44:590][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.08.28-04.58.44:590][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.08.28-04.58.44:632][  0]LogSlate: Using FreeType 2.10.0
+[2022.08.28-04.58.44:632][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.08.28-04.58.44:656][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2022.08.28-04.58.44:848][  0]LogInit: Selected Device Profile: [Windows]
+[2022.08.28-04.58.44:939][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.08.28-04.58.44:939][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.08.28-04.58.44:939][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.08.28-04.58.44:939][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.08.28-04.58.44:939][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.08.28-04.58.44:954][  0]LogNetVersion: ProjectDAGR 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 216592421)
+[2022.08.28-04.58.45:334][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000020784110100), frame # 0
+[2022.08.28-04.58.45:334][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020784059E40), frame # 0
+[2022.08.28-04.58.45:335][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000207840C8800), frame # 0
+[2022.08.28-04.58.45:418][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.077615 seconds
+[2022.08.28-04.58.45:422][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.08.28-04.58.45:423][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.08.28-04.58.45:423][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.08.28-04.58.45:702][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.08.28-04.58.45:706][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.08.28-04.58.45:786][  0]SourceControl: Source control is disabled
+[2022.08.28-04.58.45:786][  0]SourceControl: Source control is disabled
+[2022.08.28-04.58.45:788][  0]SourceControl: Source control is disabled
+[2022.08.28-04.58.45:791][  0]SourceControl: Source control is disabled
+[2022.08.28-04.58.45:795][  0]SourceControl: Source control is disabled
+[2022.08.28-04.58.46:000][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.08.28-04.58.46:018][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.08.28-04.58.46:019][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.08.28-04.58.46:068][  0]LogOcInput: OculusInput pre-init called
+[2022.08.28-04.58.46:079][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.08.28-04.58.46:079][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.08.28-04.58.46:129][  0]LogEngine: Initializing Engine...
+[2022.08.28-04.58.46:130][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.08.28-04.58.46:130][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.08.28-04.58.46:131][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.08.28-04.58.46:247][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.08.28-04.58.46:254][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.08.28-04.58.46:255][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020786B1BC00), frame # 0
+[2022.08.28-04.58.46:255][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020786B6D300), frame # 0
+[2022.08.28-04.58.46:277][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.28-04.58.46:277][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.28-04.58.46:277][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.28-04.58.46:277][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.28-04.58.46:277][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.28-04.58.46:277][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.28-04.58.46:277][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.28-04.58.46:277][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.28-04.58.46:277][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.28-04.58.46:277][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.28-04.58.46:297][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.28-04.58.46:297][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.08.28-04.58.46:331][  0]LogAudioMixer: Display: Using Audio Device SAMSUNG (NVIDIA High Definition Audio)
+[2022.08.28-04.58.46:336][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.28-04.58.46:338][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.28-04.58.46:338][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.28-04.58.46:339][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.28-04.58.46:340][  0]LogInit: FAudioDevice initialized.
+[2022.08.28-04.58.46:341][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.08.28-04.58.46:503][  0]LogDerivedDataCache: Saved boot cache 0.16s 76MB C:/Users/USER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.08.28-04.58.46:503][  0]LogInit: Texture streaming: Enabled
+[2022.08.28-04.58.46:518][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.08.28-04.58.46:518][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.08.28-04.58.46:537][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.08.28-04.58.46:574][  0]LogInit: Transaction tracking system initialized
+[2022.08.28-04.58.46:592][  0]BlueprintLog: New page: Editor Load
+[2022.08.28-04.58.46:647][  0]LocalizationService: Localization service is disabled
+[2022.08.28-04.58.46:844][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.08.28-04.58.46:845][  0]LogCook: Display: Mobile HDR setting 1
+[2022.08.28-04.58.47:033][  0]LogFileCache: Scanning file cache for directory 'C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/' took 0.00s
+[2022.08.28-04.58.47:259][  0]SourceControl: Source control is disabled
+[2022.08.28-04.58.47:259][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.165
+[2022.08.28-04.58.47:259][  0]Cmd: MAP LOAD FILE="../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/DefaultScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.08.28-04.58.47:267][  0]LightingResults: New page: Lighting Build
+[2022.08.28-04.58.47:268][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.08.28-04.58.47:268][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-04.58.47:268][  0]MapCheck: New page: Map Check
+[2022.08.28-04.58.47:268][  0]LightingResults: New page: Lighting Build
+[2022.08.28-04.58.47:280][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020786B1BC00), frame # 0
+[2022.08.28-04.58.47:280][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020786B6D300), frame # 0
+[2022.08.28-04.58.47:281][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.08.28-04.58.47:331][  0]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/DefaultScene.umap' failed to load '/Game/Scenes/DefaultScene_BuiltData': Can't find file.
+[2022.08.28-04.58.47:331][  0]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/DefaultScene.umap' failed to load '/Game/Scenes/DefaultScene_BuiltData': Can't find file.
+[2022.08.28-04.58.47:332][  0]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/DefaultScene.umap' failed to load '/Game/Scenes/DefaultScene_BuiltData': Can't find file.
+[2022.08.28-04.58.47:332][  0]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/DefaultScene.umap' failed to load '/Game/Scenes/DefaultScene_BuiltData': Can't find file.
+[2022.08.28-04.58.47:336][  0]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/DefaultScene.umap' failed to load '/Game/Scenes/DefaultScene_BuiltData': Can't find file.
+[2022.08.28-04.58.47:336][  0]LoadErrors: Failed to load /Game/Scenes/DefaultScene_BuiltData.DefaultScene_BuiltData Referenced by PersistentLevel
+[2022.08.28-04.58.47:336][  0]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/DefaultScene.umap' failed to load '/Game/Scenes/DefaultScene_BuiltData': Can't find file.
+[2022.08.28-04.58.47:336][  0]LoadErrors: Failed to load /Game/Scenes/DefaultScene_BuiltData.DefaultScene_BuiltData Referenced by PersistentLevel
+[2022.08.28-04.58.47:343][  0]LogAIModule: Creating AISystem for world DefaultScene
+[2022.08.28-04.58.47:344][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002078D380E00), frame # 0
+[2022.08.28-04.58.47:344][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002078D305D00), frame # 0
+[2022.08.28-04.58.47:349][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.08.28-04.58.47:360][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.08.28-04.58.47:360][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.08.28-04.58.47:361][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.517ms to complete.
+[2022.08.28-04.58.47:361][  0]LogFileHelpers: Loading map 'DefaultScene' took 0.102
+[2022.08.28-04.58.47:367][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.273
+[2022.08.28-04.58.47:533][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-04.58.47:546][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-04.58.47:553][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-04.58.47:559][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-04.58.47:573][  0]LogCollectionManager: Loaded 0 collections in 0.002302 seconds
+[2022.08.28-04.58.47:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Collections/' took 0.00s
+[2022.08.28-04.58.47:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Developers/USER/Collections/' took 0.00s
+[2022.08.28-04.58.47:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Collections/' took 0.00s
+[2022.08.28-04.58.47:606][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3428 classes and 823 folders.
+[2022.08.28-04.58.47:616][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.08.28-04.58.47:992][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.08.28-04.58.47:997][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 0 folders.
+[2022.08.28-04.58.48:078][  0]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.08.28-04.58.48:081][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.08.28-04.58.48:091][  0]LogSlate: Took 0.005513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.08.28-04.58.48:238][  0]LogRenderer: Reallocating scene render targets to support 1028x520 Format 10 NumSamples 1 (Frame:1).
+[2022.08.28-04.58.48:561][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.08.28-04.58.48:561][  0]LogLoad: (Engine Initialization) Total time: 7.47 seconds
+[2022.08.28-04.58.48:561][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.08.28-04.58.48:598][  0]LogAssetRegistry: Asset discovery search completed in 3.9430 seconds
+[2022.08.28-04.58.48:602][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.08.28-04.58.48:603][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.08.28-04.58.48:693][  0]LogSlate: Took 0.006350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.08.28-04.58.49:593][ 81]LogSlate: Took 0.005413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.08.28-05.01.12:314][664]LogSlate: Window 'Message Log' being destroyed
+[2022.08.28-05.01.12:318][664]LogSlate: Window 'Message Log' being destroyed
+[2022.08.28-05.01.15:486][999]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Scenes/Baxter-Scene.Baxter-Scene
+[2022.08.28-05.01.15:503][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.08.28-05.01.15:505][999]Cmd: MAP LOAD FILE="../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/Baxter-Scene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.08.28-05.01.15:506][999]LightingResults: New page: Lighting Build
+[2022.08.28-05.01.15:507][999]LoadErrors: New page: Loading map: Baxter-Scene.umap
+[2022.08.28-05.01.15:508][999]LogWorld: UWorld::CleanupWorld for DefaultScene, bSessionEnded=true, bCleanupResources=true
+[2022.08.28-05.01.15:508][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-05.01.15:508][999]MapCheck: New page: Map Check
+[2022.08.28-05.01.15:508][999]LightingResults: New page: Lighting Build
+[2022.08.28-05.01.15:517][999]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002078D380E00), frame # 999
+[2022.08.28-05.01.15:517][999]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002078D305D00), frame # 999
+[2022.08.28-05.01.15:518][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.08.28-05.01.15:529][999]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.08.28-05.01.15:529][999]LogAIModule: Creating AISystem for world Baxter-Scene
+[2022.08.28-05.01.15:529][999]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020786BBC800), frame # 999
+[2022.08.28-05.01.15:530][999]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000207AE377880), frame # 999
+[2022.08.28-05.01.15:543][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.08.28-05.01.15:557][999]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.08.28-05.01.15:557][999]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.123ms to complete.
+[2022.08.28-05.01.15:557][999]LogFileHelpers: Loading map 'Baxter-Scene' took 0.053
+[2022.08.28-05.01.16:882][135]LogTemp: Repeating last play command: Selected Viewport
+[2022.08.28-05.01.16:897][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.28-05.01.16:898][135]PIE: New page: PIE session: Baxter-Scene (29 Aug 2022, 1:01:16 am)
+[2022.08.28-05.01.16:899][135]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.08.28-05.01.16:901][135]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.08.28-05.01.16:903][135]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Baxter-Scene
+[2022.08.28-05.01.16:922][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019304s)
+[2022.08.28-05.01.16:923][135]LogAIModule: Creating AISystem for world Baxter-Scene
+[2022.08.28-05.01.16:923][135]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002078D20DE00), frame # 1135
+[2022.08.28-05.01.16:923][135]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000207AE369D00), frame # 1135
+[2022.08.28-05.01.16:924][135]LogPlayLevel: PIE: World Init took: (0.001573s)
+[2022.08.28-05.01.16:924][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Baxter-Scene.Baxter-Scene to /Game/Scenes/UEDPIE_0_Baxter-Scene.Baxter-Scene (0.021019s)
+[2022.08.28-05.01.16:933][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.08.28-05.01.16:936][135]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.28-05.01.16:936][135]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.28-05.01.16:936][135]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.28-05.01.16:936][135]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.28-05.01.16:936][135]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.28-05.01.16:936][135]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.28-05.01.16:936][135]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.28-05.01.16:936][135]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.28-05.01.16:936][135]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.28-05.01.16:936][135]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.28-05.01.16:942][135]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.28-05.01.16:942][135]LogAudioMixer: Display: 1: FrontRight
+[2022.08.28-05.01.16:963][135]LogAudioMixer: Display: Using Audio Device SAMSUNG (NVIDIA High Definition Audio)
+[2022.08.28-05.01.16:963][135]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.28-05.01.16:963][135]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.28-05.01.16:963][135]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.28-05.01.16:963][135]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.28-05.01.16:974][135]LogInit: FAudioDevice initialized.
+[2022.08.28-05.01.16:987][135]LogLoad: Game class is 'GameModeBase'
+[2022.08.28-05.01.16:998][135]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Baxter-Scene.Baxter-Scene up for play (max tick rate 0) at 2022.08.28-15.01.16
+[2022.08.28-05.01.16:999][135]LogWorld: Bringing up level for play took: 0.003748
+[2022.08.28-05.01.17:000][135]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2022.08.28-05.01.17:016][135]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2022.08.28-05.01.17:020][135]LogBlueprintUserMessages: [CatapultTest_2] X=270.000 Y=0.000 Z=440.000
+[2022.08.28-05.01.17:022][135]PIE: Server logged in
+[2022.08.28-05.01.17:024][135]PIE: Play in editor total start time 0.132 seconds.
+[2022.08.28-05.01.17:362][161]LogBlueprintUserMessages: [CatapultTest_2] 1.0
+[2022.08.28-05.01.17:386][164]LogBlueprintUserMessages: [CatapultTest_2] 2.0
+[2022.08.28-05.01.17:395][165]LogBlueprintUserMessages: [CatapultTest_2] 3.0
+[2022.08.28-05.01.17:420][168]LogBlueprintUserMessages: [CatapultTest_2] 4.0
+[2022.08.28-05.01.17:437][170]LogBlueprintUserMessages: [CatapultTest_2] 5.0
+[2022.08.28-05.01.17:462][173]LogBlueprintUserMessages: [CatapultTest_2] 6.0
+[2022.08.28-05.01.17:489][176]LogBlueprintUserMessages: [CatapultTest_2] 7.0
+[2022.08.28-05.01.17:515][179]LogBlueprintUserMessages: [CatapultTest_2] 8.0
+[2022.08.28-05.01.17:773][210]LogBlueprintUserMessages: [CatapultTest_2] 9.0
+[2022.08.28-05.01.17:789][212]LogBlueprintUserMessages: [CatapultTest_2] 10.0
+[2022.08.28-05.01.17:798][213]LogBlueprintUserMessages: [CatapultTest_2] 11.0
+[2022.08.28-05.01.17:806][214]LogBlueprintUserMessages: [CatapultTest_2] 12.0
+[2022.08.28-05.01.17:815][215]LogBlueprintUserMessages: [CatapultTest_2] 13.0
+[2022.08.28-05.01.17:823][216]LogBlueprintUserMessages: [CatapultTest_2] 14.0
+[2022.08.28-05.01.17:839][218]LogBlueprintUserMessages: [CatapultTest_2] 15.0
+[2022.08.28-05.01.17:855][220]LogBlueprintUserMessages: [CatapultTest_2] 16.0
+[2022.08.28-05.01.18:064][245]LogBlueprintUserMessages: [CatapultTest_2] 17.0
+[2022.08.28-05.01.18:080][247]LogBlueprintUserMessages: [CatapultTest_2] 18.0
+[2022.08.28-05.01.18:089][248]LogBlueprintUserMessages: [CatapultTest_2] 19.0
+[2022.08.28-05.01.18:097][249]LogBlueprintUserMessages: [CatapultTest_2] 20.0
+[2022.08.28-05.01.18:105][250]LogBlueprintUserMessages: [CatapultTest_2] 21.0
+[2022.08.28-05.01.18:115][251]LogBlueprintUserMessages: [CatapultTest_2] 22.0
+[2022.08.28-05.01.18:148][255]LogBlueprintUserMessages: [CatapultTest_2] 23.0
+[2022.08.28-05.01.18:515][299]LogBlueprintUserMessages: [CatapultTest_2] 24.0
+[2022.08.28-05.01.18:541][302]LogBlueprintUserMessages: [CatapultTest_2] 25.0
+[2022.08.28-05.01.18:549][303]LogBlueprintUserMessages: [CatapultTest_2] 26.0
+[2022.08.28-05.01.18:557][304]LogBlueprintUserMessages: [CatapultTest_2] 27.0
+[2022.08.28-05.01.18:565][305]LogBlueprintUserMessages: [CatapultTest_2] 28.0
+[2022.08.28-05.01.18:582][307]LogBlueprintUserMessages: [CatapultTest_2] 29.0
+[2022.08.28-05.01.18:823][336]LogBlueprintUserMessages: [CatapultTest_2] 30.0
+[2022.08.28-05.01.18:831][337]LogBlueprintUserMessages: [CatapultTest_2] 31.0
+[2022.08.28-05.01.18:840][338]LogBlueprintUserMessages: [CatapultTest_2] 32.0
+[2022.08.28-05.01.18:848][339]LogBlueprintUserMessages: [CatapultTest_2] 33.0
+[2022.08.28-05.01.18:856][340]LogBlueprintUserMessages: [CatapultTest_2] 34.0
+[2022.08.28-05.01.18:865][341]LogBlueprintUserMessages: [CatapultTest_2] 35.0
+[2022.08.28-05.01.18:881][343]LogBlueprintUserMessages: [CatapultTest_2] 36.0
+[2022.08.28-05.01.19:098][369]LogBlueprintUserMessages: [CatapultTest_2] 37.0
+[2022.08.28-05.01.19:106][370]LogBlueprintUserMessages: [CatapultTest_2] 38.0
+[2022.08.28-05.01.19:115][371]LogBlueprintUserMessages: [CatapultTest_2] 39.0
+[2022.08.28-05.01.19:123][372]LogBlueprintUserMessages: [CatapultTest_2] 40.0
+[2022.08.28-05.01.19:131][373]LogBlueprintUserMessages: [CatapultTest_2] 41.0
+[2022.08.28-05.01.19:140][374]LogBlueprintUserMessages: [CatapultTest_2] 42.0
+[2022.08.28-05.01.19:374][402]LogBlueprintUserMessages: [CatapultTest_2] 43.0
+[2022.08.28-05.01.19:382][403]LogBlueprintUserMessages: [CatapultTest_2] 44.0
+[2022.08.28-05.01.19:390][404]LogBlueprintUserMessages: [CatapultTest_2] 45.0
+[2022.08.28-05.01.19:399][405]LogBlueprintUserMessages: [CatapultTest_2] 46.0
+[2022.08.28-05.01.19:407][406]LogBlueprintUserMessages: [CatapultTest_2] 47.0
+[2022.08.28-05.01.19:414][407]LogBlueprintUserMessages: [CatapultTest_2] 48.0
+[2022.08.28-05.01.19:674][438]LogBlueprintUserMessages: [CatapultTest_2] 49.0
+[2022.08.28-05.01.19:690][440]LogBlueprintUserMessages: [CatapultTest_2] 50.0
+[2022.08.28-05.01.19:699][441]LogBlueprintUserMessages: [CatapultTest_2] 51.0
+[2022.08.28-05.01.19:707][442]LogBlueprintUserMessages: [CatapultTest_2] 52.0
+[2022.08.28-05.01.19:715][443]LogBlueprintUserMessages: [CatapultTest_2] 53.0
+[2022.08.28-05.01.19:724][444]LogBlueprintUserMessages: [CatapultTest_2] 54.0
+[2022.08.28-05.01.19:732][445]LogBlueprintUserMessages: [CatapultTest_2] 55.0
+[2022.08.28-05.01.19:982][475]LogBlueprintUserMessages: [CatapultTest_2] 56.0
+[2022.08.28-05.01.19:998][477]LogBlueprintUserMessages: [CatapultTest_2] 57.0
+[2022.08.28-05.01.20:006][478]LogBlueprintUserMessages: [CatapultTest_2] 58.0
+[2022.08.28-05.01.20:015][479]LogBlueprintUserMessages: [CatapultTest_2] 59.0
+[2022.08.28-05.01.20:023][480]LogBlueprintUserMessages: [CatapultTest_2] 60.0
+[2022.08.28-05.01.20:031][481]LogBlueprintUserMessages: [CatapultTest_2] 61.0
+[2022.08.28-05.01.20:031][481]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.20:040][482]LogBlueprintUserMessages: [CatapultTest_2] 62.0
+[2022.08.28-05.01.20:040][482]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.20:299][513]LogBlueprintUserMessages: [CatapultTest_2] 63.0
+[2022.08.28-05.01.20:299][513]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.20:315][515]LogBlueprintUserMessages: [CatapultTest_2] 64.0
+[2022.08.28-05.01.20:315][515]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.20:323][516]LogBlueprintUserMessages: [CatapultTest_2] 65.0
+[2022.08.28-05.01.20:324][516]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.20:332][517]LogBlueprintUserMessages: [CatapultTest_2] 66.0
+[2022.08.28-05.01.20:332][517]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.20:340][518]LogBlueprintUserMessages: [CatapultTest_2] 67.0
+[2022.08.28-05.01.20:340][518]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.20:348][519]LogBlueprintUserMessages: [CatapultTest_2] 68.0
+[2022.08.28-05.01.20:348][519]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.20:374][522]LogBlueprintUserMessages: [CatapultTest_2] 69.0
+[2022.08.28-05.01.20:374][522]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.25:043][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-05.01.25:043][ 77]LogWorld: BeginTearingDown for /Game/Scenes/UEDPIE_0_Baxter-Scene
+[2022.08.28-05.01.25:043][ 77]LogWorld: UWorld::CleanupWorld for Baxter-Scene, bSessionEnded=true, bCleanupResources=true
+[2022.08.28-05.01.25:044][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-05.01.25:051][ 77]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.28-05.01.25:052][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-05.01.25:074][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-05.01.25:076][ 77]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002078D20DE00), frame # 2077
+[2022.08.28-05.01.25:076][ 77]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000207AE369D00), frame # 2077
+[2022.08.28-05.01.25:076][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.28-05.01.25:133][ 79]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.08.28-05.01.25:732][150]LogTemp: Repeating last play command: Selected Viewport
+[2022.08.28-05.01.25:740][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.28-05.01.25:741][150]PIE: New page: PIE session: Baxter-Scene (29 Aug 2022, 1:01:25 am)
+[2022.08.28-05.01.25:741][150]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Baxter-Scene
+[2022.08.28-05.01.25:758][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016959s)
+[2022.08.28-05.01.25:759][150]LogAIModule: Creating AISystem for world Baxter-Scene
+[2022.08.28-05.01.25:759][150]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000207BB005400), frame # 2150
+[2022.08.28-05.01.25:759][150]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000207BB1C9BC0), frame # 2150
+[2022.08.28-05.01.25:759][150]LogPlayLevel: PIE: World Init took: (0.001306s)
+[2022.08.28-05.01.25:759][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Baxter-Scene.Baxter-Scene to /Game/Scenes/UEDPIE_0_Baxter-Scene.Baxter-Scene (0.018441s)
+[2022.08.28-05.01.25:768][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.08.28-05.01.25:769][150]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.28-05.01.25:769][150]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.28-05.01.25:769][150]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.28-05.01.25:769][150]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.28-05.01.25:769][150]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.28-05.01.25:769][150]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.28-05.01.25:769][150]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.28-05.01.25:769][150]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.28-05.01.25:770][150]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.28-05.01.25:770][150]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.28-05.01.25:775][150]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.28-05.01.25:775][150]LogAudioMixer: Display: 1: FrontRight
+[2022.08.28-05.01.25:793][150]LogAudioMixer: Display: Using Audio Device SAMSUNG (NVIDIA High Definition Audio)
+[2022.08.28-05.01.25:793][150]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.28-05.01.25:794][150]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.28-05.01.25:794][150]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.28-05.01.25:794][150]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.28-05.01.25:806][150]LogInit: FAudioDevice initialized.
+[2022.08.28-05.01.25:817][150]LogLoad: Game class is 'GameModeBase'
+[2022.08.28-05.01.25:820][150]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Baxter-Scene.Baxter-Scene up for play (max tick rate 0) at 2022.08.28-15.01.25
+[2022.08.28-05.01.25:821][150]LogWorld: Bringing up level for play took: 0.002710
+[2022.08.28-05.01.25:821][150]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2022.08.28-05.01.25:823][150]LogBlueprintUserMessages: [CatapultTest_2] X=270.000 Y=0.000 Z=440.000
+[2022.08.28-05.01.25:823][150]PIE: Server logged in
+[2022.08.28-05.01.25:823][150]PIE: Play in editor total start time 0.083 seconds.
+[2022.08.28-05.01.26:019][172]LogBlueprintUserMessages: [CatapultTest_2] 1.0
+[2022.08.28-05.01.26:045][175]LogBlueprintUserMessages: [CatapultTest_2] 2.0
+[2022.08.28-05.01.26:061][177]LogBlueprintUserMessages: [CatapultTest_2] 3.0
+[2022.08.28-05.01.26:069][178]LogBlueprintUserMessages: [CatapultTest_2] 4.0
+[2022.08.28-05.01.26:078][179]LogBlueprintUserMessages: [CatapultTest_2] 5.0
+[2022.08.28-05.01.26:094][181]LogBlueprintUserMessages: [CatapultTest_2] 6.0
+[2022.08.28-05.01.26:103][182]LogBlueprintUserMessages: [CatapultTest_2] 7.0
+[2022.08.28-05.01.26:128][185]LogBlueprintUserMessages: [CatapultTest_2] 8.0
+[2022.08.28-05.01.26:320][208]LogBlueprintUserMessages: [CatapultTest_2] 9.0
+[2022.08.28-05.01.26:337][210]LogBlueprintUserMessages: [CatapultTest_2] 10.0
+[2022.08.28-05.01.26:345][211]LogBlueprintUserMessages: [CatapultTest_2] 11.0
+[2022.08.28-05.01.26:353][212]LogBlueprintUserMessages: [CatapultTest_2] 12.0
+[2022.08.28-05.01.26:362][213]LogBlueprintUserMessages: [CatapultTest_2] 13.0
+[2022.08.28-05.01.26:370][214]LogBlueprintUserMessages: [CatapultTest_2] 14.0
+[2022.08.28-05.01.26:378][215]LogBlueprintUserMessages: [CatapultTest_2] 15.0
+[2022.08.28-05.01.26:604][242]LogBlueprintUserMessages: [CatapultTest_2] 16.0
+[2022.08.28-05.01.26:612][243]LogBlueprintUserMessages: [CatapultTest_2] 17.0
+[2022.08.28-05.01.26:628][245]LogBlueprintUserMessages: [CatapultTest_2] 18.0
+[2022.08.28-05.01.26:644][247]LogBlueprintUserMessages: [CatapultTest_2] 19.0
+[2022.08.28-05.01.26:653][248]LogBlueprintUserMessages: [CatapultTest_2] 20.0
+[2022.08.28-05.01.26:661][249]LogBlueprintUserMessages: [CatapultTest_2] 21.0
+[2022.08.28-05.01.26:861][273]LogBlueprintUserMessages: [CatapultTest_2] 22.0
+[2022.08.28-05.01.26:878][275]LogBlueprintUserMessages: [CatapultTest_2] 23.0
+[2022.08.28-05.01.26:887][276]LogBlueprintUserMessages: [CatapultTest_2] 24.0
+[2022.08.28-05.01.26:895][277]LogBlueprintUserMessages: [CatapultTest_2] 25.0
+[2022.08.28-05.01.26:903][278]LogBlueprintUserMessages: [CatapultTest_2] 26.0
+[2022.08.28-05.01.26:912][279]LogBlueprintUserMessages: [CatapultTest_2] 27.0
+[2022.08.28-05.01.29:411][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-05.01.29:411][576]LogWorld: BeginTearingDown for /Game/Scenes/UEDPIE_0_Baxter-Scene
+[2022.08.28-05.01.29:411][576]LogWorld: UWorld::CleanupWorld for Baxter-Scene, bSessionEnded=true, bCleanupResources=true
+[2022.08.28-05.01.29:412][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-05.01.29:416][576]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.28-05.01.29:417][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-05.01.29:425][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-05.01.29:438][576]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000207BB1C9BC0), frame # 2576
+[2022.08.28-05.01.29:438][576]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000207BB005400), frame # 2576
+[2022.08.28-05.01.29:439][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.08.28-05.01.29:488][578]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.08.28-05.01.30:318][675]LogTemp: Repeating last play command: Selected Viewport
+[2022.08.28-05.01.30:326][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.28-05.01.30:326][675]PIE: New page: PIE session: Baxter-Scene (29 Aug 2022, 1:01:30 am)
+[2022.08.28-05.01.30:370][675]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Baxter-Scene
+[2022.08.28-05.01.30:387][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016567s)
+[2022.08.28-05.01.30:387][675]LogAIModule: Creating AISystem for world Baxter-Scene
+[2022.08.28-05.01.30:387][675]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000207AEA4EA00), frame # 2675
+[2022.08.28-05.01.30:388][675]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000207BB1C9BC0), frame # 2675
+[2022.08.28-05.01.30:388][675]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2022.08.28-05.01.30:388][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Baxter-Scene.Baxter-Scene to /Game/Scenes/UEDPIE_0_Baxter-Scene.Baxter-Scene (0.017545s)
+[2022.08.28-05.01.30:396][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.28-05.01.30:397][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.28-05.01.30:397][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.28-05.01.30:397][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.28-05.01.30:397][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.28-05.01.30:397][675]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.28-05.01.30:397][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.28-05.01.30:397][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.28-05.01.30:397][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.28-05.01.30:398][675]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.28-05.01.30:398][675]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.28-05.01.30:403][675]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.28-05.01.30:403][675]LogAudioMixer: Display: 1: FrontRight
+[2022.08.28-05.01.30:419][675]LogAudioMixer: Display: Using Audio Device SAMSUNG (NVIDIA High Definition Audio)
+[2022.08.28-05.01.30:419][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.28-05.01.30:419][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.28-05.01.30:419][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.28-05.01.30:419][675]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.28-05.01.30:420][675]LogInit: FAudioDevice initialized.
+[2022.08.28-05.01.30:434][675]LogLoad: Game class is 'GameModeBase'
+[2022.08.28-05.01.30:437][675]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Baxter-Scene.Baxter-Scene up for play (max tick rate 0) at 2022.08.28-15.01.30
+[2022.08.28-05.01.30:437][675]LogWorld: Bringing up level for play took: 0.002394
+[2022.08.28-05.01.30:437][675]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2022.08.28-05.01.30:438][675]LogBlueprintUserMessages: [CatapultTest_2] X=270.000 Y=0.000 Z=440.000
+[2022.08.28-05.01.30:438][675]PIE: Server logged in
+[2022.08.28-05.01.30:439][675]PIE: Play in editor total start time 0.113 seconds.
+[2022.08.28-05.01.30:746][710]LogBlueprintUserMessages: [CatapultTest_2] 1.0
+[2022.08.28-05.01.30:770][713]LogBlueprintUserMessages: [CatapultTest_2] 2.0
+[2022.08.28-05.01.30:795][716]LogBlueprintUserMessages: [CatapultTest_2] 3.0
+[2022.08.28-05.01.30:803][717]LogBlueprintUserMessages: [CatapultTest_2] 4.0
+[2022.08.28-05.01.30:820][719]LogBlueprintUserMessages: [CatapultTest_2] 5.0
+[2022.08.28-05.01.30:836][721]LogBlueprintUserMessages: [CatapultTest_2] 6.0
+[2022.08.28-05.01.30:845][722]LogBlueprintUserMessages: [CatapultTest_2] 7.0
+[2022.08.28-05.01.30:862][724]LogBlueprintUserMessages: [CatapultTest_2] 8.0
+[2022.08.28-05.01.31:096][752]LogBlueprintUserMessages: [CatapultTest_2] 9.0
+[2022.08.28-05.01.31:111][754]LogBlueprintUserMessages: [CatapultTest_2] 10.0
+[2022.08.28-05.01.31:128][756]LogBlueprintUserMessages: [CatapultTest_2] 11.0
+[2022.08.28-05.01.31:136][757]LogBlueprintUserMessages: [CatapultTest_2] 12.0
+[2022.08.28-05.01.31:145][758]LogBlueprintUserMessages: [CatapultTest_2] 13.0
+[2022.08.28-05.01.31:161][760]LogBlueprintUserMessages: [CatapultTest_2] 14.0
+[2022.08.28-05.01.31:186][763]LogBlueprintUserMessages: [CatapultTest_2] 15.0
+[2022.08.28-05.01.31:395][788]LogBlueprintUserMessages: [CatapultTest_2] 16.0
+[2022.08.28-05.01.31:414][790]LogBlueprintUserMessages: [CatapultTest_2] 17.0
+[2022.08.28-05.01.31:423][791]LogBlueprintUserMessages: [CatapultTest_2] 18.0
+[2022.08.28-05.01.31:435][792]LogBlueprintUserMessages: [CatapultTest_2] 19.0
+[2022.08.28-05.01.31:444][793]LogBlueprintUserMessages: [CatapultTest_2] 20.0
+[2022.08.28-05.01.31:460][795]LogBlueprintUserMessages: [CatapultTest_2] 21.0
+[2022.08.28-05.01.31:468][796]LogBlueprintUserMessages: [CatapultTest_2] 22.0
+[2022.08.28-05.01.31:693][823]LogBlueprintUserMessages: [CatapultTest_2] 23.0
+[2022.08.28-05.01.31:710][825]LogBlueprintUserMessages: [CatapultTest_2] 24.0
+[2022.08.28-05.01.31:718][826]LogBlueprintUserMessages: [CatapultTest_2] 25.0
+[2022.08.28-05.01.31:727][827]LogBlueprintUserMessages: [CatapultTest_2] 26.0
+[2022.08.28-05.01.31:735][828]LogBlueprintUserMessages: [CatapultTest_2] 27.0
+[2022.08.28-05.01.31:743][829]LogBlueprintUserMessages: [CatapultTest_2] 28.0
+[2022.08.28-05.01.31:761][831]LogBlueprintUserMessages: [CatapultTest_2] 29.0
+[2022.08.28-05.01.31:985][858]LogBlueprintUserMessages: [CatapultTest_2] 30.0
+[2022.08.28-05.01.32:002][860]LogBlueprintUserMessages: [CatapultTest_2] 31.0
+[2022.08.28-05.01.32:010][861]LogBlueprintUserMessages: [CatapultTest_2] 32.0
+[2022.08.28-05.01.32:027][863]LogBlueprintUserMessages: [CatapultTest_2] 33.0
+[2022.08.28-05.01.32:035][864]LogBlueprintUserMessages: [CatapultTest_2] 34.0
+[2022.08.28-05.01.32:044][865]LogBlueprintUserMessages: [CatapultTest_2] 35.0
+[2022.08.28-05.01.32:052][866]LogBlueprintUserMessages: [CatapultTest_2] 36.0
+[2022.08.28-05.01.32:277][893]LogBlueprintUserMessages: [CatapultTest_2] 37.0
+[2022.08.28-05.01.32:285][894]LogBlueprintUserMessages: [CatapultTest_2] 38.0
+[2022.08.28-05.01.32:294][895]LogBlueprintUserMessages: [CatapultTest_2] 39.0
+[2022.08.28-05.01.32:302][896]LogBlueprintUserMessages: [CatapultTest_2] 40.0
+[2022.08.28-05.01.32:311][897]LogBlueprintUserMessages: [CatapultTest_2] 41.0
+[2022.08.28-05.01.32:319][898]LogBlueprintUserMessages: [CatapultTest_2] 42.0
+[2022.08.28-05.01.32:327][899]LogBlueprintUserMessages: [CatapultTest_2] 43.0
+[2022.08.28-05.01.32:568][928]LogBlueprintUserMessages: [CatapultTest_2] 44.0
+[2022.08.28-05.01.32:585][930]LogBlueprintUserMessages: [CatapultTest_2] 45.0
+[2022.08.28-05.01.32:594][931]LogBlueprintUserMessages: [CatapultTest_2] 46.0
+[2022.08.28-05.01.32:602][932]LogBlueprintUserMessages: [CatapultTest_2] 47.0
+[2022.08.28-05.01.32:611][933]LogBlueprintUserMessages: [CatapultTest_2] 48.0
+[2022.08.28-05.01.32:619][934]LogBlueprintUserMessages: [CatapultTest_2] 49.0
+[2022.08.28-05.01.32:626][935]LogBlueprintUserMessages: [CatapultTest_2] 50.0
+[2022.08.28-05.01.32:868][964]LogBlueprintUserMessages: [CatapultTest_2] 51.0
+[2022.08.28-05.01.32:878][965]LogBlueprintUserMessages: [CatapultTest_2] 52.0
+[2022.08.28-05.01.32:896][967]LogBlueprintUserMessages: [CatapultTest_2] 53.0
+[2022.08.28-05.01.32:903][968]LogBlueprintUserMessages: [CatapultTest_2] 54.0
+[2022.08.28-05.01.32:911][969]LogBlueprintUserMessages: [CatapultTest_2] 55.0
+[2022.08.28-05.01.32:919][970]LogBlueprintUserMessages: [CatapultTest_2] 56.0
+[2022.08.28-05.01.32:928][971]LogBlueprintUserMessages: [CatapultTest_2] 57.0
+[2022.08.28-05.01.32:936][972]LogBlueprintUserMessages: [CatapultTest_2] 58.0
+[2022.08.28-05.01.33:186][  2]LogBlueprintUserMessages: [CatapultTest_2] 59.0
+[2022.08.28-05.01.33:195][  3]LogBlueprintUserMessages: [CatapultTest_2] 60.0
+[2022.08.28-05.01.33:202][  4]LogBlueprintUserMessages: [CatapultTest_2] 61.0
+[2022.08.28-05.01.33:202][  4]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.33:211][  5]LogBlueprintUserMessages: [CatapultTest_2] 62.0
+[2022.08.28-05.01.33:211][  5]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.33:219][  6]LogBlueprintUserMessages: [CatapultTest_2] 63.0
+[2022.08.28-05.01.33:219][  6]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.33:228][  7]LogBlueprintUserMessages: [CatapultTest_2] 64.0
+[2022.08.28-05.01.33:228][  7]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.33:236][  8]LogBlueprintUserMessages: [CatapultTest_2] 65.0
+[2022.08.28-05.01.33:236][  8]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.33:494][ 39]LogBlueprintUserMessages: [CatapultTest_2] 66.0
+[2022.08.28-05.01.33:494][ 39]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.33:511][ 41]LogBlueprintUserMessages: [CatapultTest_2] 67.0
+[2022.08.28-05.01.33:511][ 41]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.33:519][ 42]LogBlueprintUserMessages: [CatapultTest_2] 68.0
+[2022.08.28-05.01.33:519][ 42]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.33:528][ 43]LogBlueprintUserMessages: [CatapultTest_2] 69.0
+[2022.08.28-05.01.33:528][ 43]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.33:536][ 44]LogBlueprintUserMessages: [CatapultTest_2] 70.0
+[2022.08.28-05.01.33:536][ 44]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.33:544][ 45]LogBlueprintUserMessages: [CatapultTest_2] 71.0
+[2022.08.28-05.01.33:544][ 45]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.33:553][ 46]LogBlueprintUserMessages: [CatapultTest_2] 72.0
+[2022.08.28-05.01.33:553][ 46]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.33:561][ 47]LogBlueprintUserMessages: [CatapultTest_2] 73.0
+[2022.08.28-05.01.33:561][ 47]LogBlueprintUserMessages: [CatapultTest_2] Cannot Pull Back Any Further
+[2022.08.28-05.01.36:961][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-05.01.36:961][451]LogWorld: BeginTearingDown for /Game/Scenes/UEDPIE_0_Baxter-Scene
+[2022.08.28-05.01.36:961][451]LogWorld: UWorld::CleanupWorld for Baxter-Scene, bSessionEnded=true, bCleanupResources=true
+[2022.08.28-05.01.36:962][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-05.01.36:967][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.28-05.01.36:969][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-05.01.36:990][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-05.01.36:990][451]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000207BB1C9BC0), frame # 3451
+[2022.08.28-05.01.36:990][451]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000207AEA4EA00), frame # 3451
+[2022.08.28-05.01.36:991][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.08.28-05.01.37:041][453]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.08.28-05.01.37:609][518]LogTemp: Repeating last play command: Selected Viewport
+[2022.08.28-05.01.37:618][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.28-05.01.37:618][518]PIE: New page: PIE session: Baxter-Scene (29 Aug 2022, 1:01:37 am)
+[2022.08.28-05.01.37:640][518]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Baxter-Scene
+[2022.08.28-05.01.37:657][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016813s)
+[2022.08.28-05.01.37:658][518]LogAIModule: Creating AISystem for world Baxter-Scene
+[2022.08.28-05.01.37:658][518]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000207BB292000), frame # 3518
+[2022.08.28-05.01.37:658][518]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000207BB1CBC40), frame # 3518
+[2022.08.28-05.01.37:658][518]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2022.08.28-05.01.37:658][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Baxter-Scene.Baxter-Scene to /Game/Scenes/UEDPIE_0_Baxter-Scene.Baxter-Scene (0.017802s)
+[2022.08.28-05.01.37:667][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.28-05.01.37:669][518]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.28-05.01.37:669][518]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.28-05.01.37:669][518]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.28-05.01.37:669][518]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.28-05.01.37:669][518]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.28-05.01.37:669][518]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.28-05.01.37:669][518]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.28-05.01.37:669][518]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.28-05.01.37:669][518]LogAudio: Display: Using built-in audio occlusion.
+[2022.08.28-05.01.37:669][518]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.28-05.01.37:675][518]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.28-05.01.37:675][518]LogAudioMixer: Display: 1: FrontRight
+[2022.08.28-05.01.37:691][518]LogAudioMixer: Display: Using Audio Device SAMSUNG (NVIDIA High Definition Audio)
+[2022.08.28-05.01.37:691][518]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.28-05.01.37:691][518]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.28-05.01.37:691][518]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.28-05.01.37:692][518]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.28-05.01.37:700][518]LogInit: FAudioDevice initialized.
+[2022.08.28-05.01.37:705][518]LogLoad: Game class is 'GameModeBase'
+[2022.08.28-05.01.37:708][518]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Baxter-Scene.Baxter-Scene up for play (max tick rate 0) at 2022.08.28-15.01.37
+[2022.08.28-05.01.37:708][518]LogWorld: Bringing up level for play took: 0.002407
+[2022.08.28-05.01.37:708][518]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2022.08.28-05.01.37:710][518]LogBlueprintUserMessages: [CatapultTest_2] X=270.000 Y=0.000 Z=440.000
+[2022.08.28-05.01.37:710][518]PIE: Server logged in
+[2022.08.28-05.01.37:711][518]PIE: Play in editor total start time 0.094 seconds.
+[2022.08.28-05.01.38:445][603]LogBlueprintUserMessages: [CatapultTest_2] 1.0
+[2022.08.28-05.01.38:462][605]LogBlueprintUserMessages: [CatapultTest_2] 2.0
+[2022.08.28-05.01.38:478][607]LogBlueprintUserMessages: [CatapultTest_2] 3.0
+[2022.08.28-05.01.38:503][610]LogBlueprintUserMessages: [CatapultTest_2] 4.0
+[2022.08.28-05.01.38:913][659]LogBlueprintUserMessages: [CatapultTest_2] 5.0
+[2022.08.28-05.01.38:937][662]LogBlueprintUserMessages: [CatapultTest_2] 6.0
+[2022.08.28-05.01.38:962][665]LogBlueprintUserMessages: [CatapultTest_2] 7.0
+[2022.08.28-05.01.38:979][667]LogBlueprintUserMessages: [CatapultTest_2] 8.0
+[2022.08.28-05.01.38:995][669]LogBlueprintUserMessages: [CatapultTest_2] 9.0
+[2022.08.28-05.01.39:012][671]LogBlueprintUserMessages: [CatapultTest_2] 10.0
+[2022.08.28-05.01.39:021][672]LogBlueprintUserMessages: [CatapultTest_2] 11.0
+[2022.08.28-05.01.39:046][675]LogBlueprintUserMessages: [CatapultTest_2] 12.0
+[2022.08.28-05.01.39:303][706]LogBlueprintUserMessages: [CatapultTest_2] 13.0
+[2022.08.28-05.01.39:337][710]LogBlueprintUserMessages: [CatapultTest_2] 14.0
+[2022.08.28-05.01.39:354][712]LogBlueprintUserMessages: [CatapultTest_2] 15.0
+[2022.08.28-05.01.39:370][714]LogBlueprintUserMessages: [CatapultTest_2] 16.0
+[2022.08.28-05.01.39:378][715]LogBlueprintUserMessages: [CatapultTest_2] 17.0
+[2022.08.28-05.01.39:403][718]LogBlueprintUserMessages: [CatapultTest_2] 18.0
+[2022.08.28-05.01.39:420][720]LogBlueprintUserMessages: [CatapultTest_2] 19.0
+[2022.08.28-05.01.39:729][757]LogBlueprintUserMessages: [CatapultTest_2] 20.0
+[2022.08.28-05.01.39:745][759]LogBlueprintUserMessages: [CatapultTest_2] 21.0
+[2022.08.28-05.01.39:762][761]LogBlueprintUserMessages: [CatapultTest_2] 22.0
+[2022.08.28-05.01.39:771][762]LogBlueprintUserMessages: [CatapultTest_2] 23.0
+[2022.08.28-05.01.39:779][763]LogBlueprintUserMessages: [CatapultTest_2] 24.0
+[2022.08.28-05.01.39:787][764]LogBlueprintUserMessages: [CatapultTest_2] 25.0
+[2022.08.28-05.01.39:804][766]LogBlueprintUserMessages: [CatapultTest_2] 26.0
+[2022.08.28-05.01.39:821][768]LogBlueprintUserMessages: [CatapultTest_2] 27.0
+[2022.08.28-05.01.40:146][807]LogBlueprintUserMessages: [CatapultTest_2] 28.0
+[2022.08.28-05.01.40:163][809]LogBlueprintUserMessages: [CatapultTest_2] 29.0
+[2022.08.28-05.01.40:179][811]LogBlueprintUserMessages: [CatapultTest_2] 30.0
+[2022.08.28-05.01.40:188][812]LogBlueprintUserMessages: [CatapultTest_2] 31.0
+[2022.08.28-05.01.40:196][813]LogBlueprintUserMessages: [CatapultTest_2] 32.0
+[2022.08.28-05.01.40:204][814]LogBlueprintUserMessages: [CatapultTest_2] 33.0
+[2022.08.28-05.01.40:212][815]LogBlueprintUserMessages: [CatapultTest_2] 34.0
+[2022.08.28-05.01.40:221][816]LogBlueprintUserMessages: [CatapultTest_2] 35.0
+[2022.08.28-05.01.40:237][818]LogBlueprintUserMessages: [CatapultTest_2] 36.0
+[2022.08.28-05.01.40:555][856]LogBlueprintUserMessages: [CatapultTest_2] 37.0
+[2022.08.28-05.01.40:579][859]LogBlueprintUserMessages: [CatapultTest_2] 38.0
+[2022.08.28-05.01.40:587][860]LogBlueprintUserMessages: [CatapultTest_2] 39.0
+[2022.08.28-05.01.40:604][862]LogBlueprintUserMessages: [CatapultTest_2] 40.0
+[2022.08.28-05.01.40:612][863]LogBlueprintUserMessages: [CatapultTest_2] 41.0
+[2022.08.28-05.01.40:628][865]LogBlueprintUserMessages: [CatapultTest_2] 42.0
+[2022.08.28-05.01.40:662][869]LogBlueprintUserMessages: [CatapultTest_2] 43.0
+[2022.08.28-05.02.38:289][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-05.02.38:290][772]LogWorld: BeginTearingDown for /Game/Scenes/UEDPIE_0_Baxter-Scene
+[2022.08.28-05.02.38:290][772]LogWorld: UWorld::CleanupWorld for Baxter-Scene, bSessionEnded=true, bCleanupResources=true
+[2022.08.28-05.02.38:290][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-05.02.38:295][772]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.28-05.02.38:297][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-05.02.38:306][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-05.02.38:327][772]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000207BB1CBC40), frame # 10772
+[2022.08.28-05.02.38:327][772]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000207BB292000), frame # 10772
+[2022.08.28-05.02.38:328][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.08.28-05.02.38:377][774]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.08.28-05.02.52:168][380]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/Baxter_Assets/CatapultTest.CatapultTest
+[2022.08.28-05.02.52:713][380]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2022.08.28-05.02.53:702][380]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.08.28-05.02.53:956][381]LogSlate: Took 0.005977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.08.28-05.13.43:986][738]BlueprintLog: New page: Compile CatapultTest
+[2022.08.28-05.13.44:036][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.08.28-05.13.44:641][772]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/CatapultTestCDF959304AF8FCB55E4A428368CC13C6.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Assets/Baxter_Assets/CatapultTest.uasset'
+[2022.08.28-05.13.44:657][772]AssetCheck: New page: Asset Save: CatapultTest
+[2022.08.28-05.13.44:657][772]LogContentValidation: Display: Validating Blueprint /Game/Assets/Baxter_Assets/CatapultTest.CatapultTest
+[2022.08.28-05.17.07:706][914]LogLinker: Warning: Asset '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2022.08.28-05.17.07:708][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:708][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:708][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:708][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:708][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:708][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:708][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:708][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:708][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:708][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:708][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:708][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:709][914]LogLinker: Warning: Failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:710][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:710][914]LoadErrors: Failed to load /Script/DisplayCluster.DisplayClusterSceneComponent Referenced by DA_Tracker
+[2022.08.28-05.17.07:710][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:710][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:710][914]LoadErrors: Failed to load /Script/DisplayCluster.DisplayClusterBlueprintAPI Referenced by K2Node_CallFunction_32
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LoadErrors: Failed to load /Script/DisplayCluster.DisplayClusterSceneComponent Referenced by K2Node_CallFunction_32
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LoadErrors: Failed to load /Script/DisplayCluster.DisplayClusterBlueprintLib Referenced by K2Node_CallFunction_27
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LoadErrors: Failed to load /Script/DisplayCluster.Default__DisplayClusterBlueprintLib Referenced by K2Node_CallFunction_27
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LoadErrors: Failed to load /Script/DisplayCluster.DisplayClusterBlueprintAPI Referenced by K2Node_CallFunction_27
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LoadErrors: Failed to load /Script/DisplayCluster.DisplayClusterSceneComponent Referenced by K2Node_VariableSet_0
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:711][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:712][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:712][914]LoadErrors: Failed to load /Script/DisplayCluster.DisplayClusterSceneComponent Referenced by K2Node_Knot_0
+[2022.08.28-05.17.07:712][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:712][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:712][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:712][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:712][914]LoadErrors: Failed to load /Script/DisplayCluster.DisplayClusterSceneComponent Referenced by K2Node_VariableGet_1
+[2022.08.28-05.17.07:712][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:713][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:713][914]LoadErrors: Failed to load /Script/DisplayCluster.DisplayClusterSceneComponent Referenced by K2Node_VariableGet_0
+[2022.08.28-05.17.07:713][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:713][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:713][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:713][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:713][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:714][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:714][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:714][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:714][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:715][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:715][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:715][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:715][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:715][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:715][914]LogLinker: Warning: While loading '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Plugins/DA_Assets/Content/DeviceCommunication/DA_Tracker.uasset' failed to load '/Script/DisplayCluster': Can't find file.
+[2022.08.28-05.17.07:722][914]LogBlueprint: Warning: [Compiler DA_Tracker] InputKey Event specifies invalid FKey'nDisplayButton5' for  nDisplayButton5
+[2022.08.28-05.17.07:722][914]LogBlueprint: Warning: [Compiler DA_Tracker] InputKey Event specifies invalid FKey'nDisplayButton3' for  nDisplayButton3
+[2022.08.28-05.17.07:723][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  Proxy Scene Node  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2022.08.28-05.17.07:723][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  Out API  no longer exists on node  Get API . Please refresh node or break links to remove pin.
+[2022.08.28-05.17.07:723][914]LogBlueprint: Error: [Compiler DA_Tracker] Could not find a function named "GetAPI" in 'DA_Tracker'.
+Make sure 'DA_Tracker' has been compiled for  Get API
+[2022.08.28-05.17.07:723][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  <Unnamed>  no longer exists on node  Get Node by Id . Please refresh node or break links to remove pin.
+[2022.08.28-05.17.07:723][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  <Unnamed>  no longer exists on node  Get Node by Id . Please refresh node or break links to remove pin.
+[2022.08.28-05.17.07:723][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  Target  no longer exists on node  Get Node by Id . Please refresh node or break links to remove pin.
+[2022.08.28-05.17.07:723][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  Id  no longer exists on node  Get Node by Id . Please refresh node or break links to remove pin.
+[2022.08.28-05.17.07:723][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  Return Value  no longer exists on node  Get Node by Id . Please refresh node or break links to remove pin.
+[2022.08.28-05.17.07:723][914]LogBlueprint: Error: [Compiler DA_Tracker] Could not find a function named "GetNodeById" in 'DA_Tracker'.
+Make sure 'DA_Tracker' has been compiled for  Get Node by Id
+[2022.08.28-05.17.07:724][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  Proxy Scene Node  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2022.08.28-05.17.07:724][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  Proxy Scene Node  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2022.08.28-05.17.07:724][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  Proxy Scene Node  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2022.08.28-05.17.07:725][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  Proxy Scene Node  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2022.08.28-05.17.07:725][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  Proxy Scene Node  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2022.08.28-05.17.07:730][914]LogBlueprint: Error: [Compiler DA_Tracker] Invalid pin connection from  Input Object  and  <Unnamed> : Object Reference is not compatible with Object Reference. (You may have changed the type after the connections were made)
+[2022.08.28-05.17.07:730][914]LogBlueprint: Error: [Compiler DA_Tracker] In use pin  Proxy Scene Node  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2022.08.28-05.18.48:884][172]BlueprintLog: New page: Compile CatapultTest
+[2022.08.28-05.18.48:924][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.08.28-05.18.49:534][221]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/CatapultTest2BD88F06472218BEBC17DA940D84D677.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Assets/Baxter_Assets/CatapultTest.uasset'
+[2022.08.28-05.18.49:547][221]AssetCheck: New page: Asset Save: CatapultTest
+[2022.08.28-05.18.49:547][221]LogContentValidation: Display: Validating Blueprint /Game/Assets/Baxter_Assets/CatapultTest.CatapultTest
+[2022.08.28-05.19.03:276][598]BlueprintLog: New page: Compile CatapultTest
+[2022.08.28-05.19.03:313][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.08.28-05.19.03:675][627]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/CatapultTest500FCD7E4B80C51F3C81FD8D035D2A40.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Assets/Baxter_Assets/CatapultTest.uasset'
+[2022.08.28-05.19.03:685][627]AssetCheck: New page: Asset Save: CatapultTest
+[2022.08.28-05.19.03:685][627]LogContentValidation: Display: Validating Blueprint /Game/Assets/Baxter_Assets/CatapultTest.CatapultTest
+[2022.08.28-05.19.27:999][ 62]LogRenderer: Reallocating scene render targets to support 1028x712 Format 10 NumSamples 1 (Frame:4922).
+[2022.08.28-05.19.29:168][156]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/CatapultTest126B2E4A4B534C8E647BBE9285EBC98E.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Assets/Baxter_Assets/CatapultTest.uasset'
+[2022.08.28-05.19.29:178][156]AssetCheck: New page: Asset Save: CatapultTest
+[2022.08.28-05.19.29:178][156]LogContentValidation: Display: Validating Blueprint /Game/Assets/Baxter_Assets/CatapultTest.CatapultTest
+[2022.08.28-05.22.22:424][ 14]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/CatapultTest4A6398E048ABA6C2AB22B58AC8974BEB.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Assets/Baxter_Assets/CatapultTest.uasset'
+[2022.08.28-05.22.22:438][ 14]AssetCheck: New page: Asset Save: CatapultTest
+[2022.08.28-05.22.22:438][ 14]LogContentValidation: Display: Validating Blueprint /Game/Assets/Baxter_Assets/CatapultTest.CatapultTest
+[2022.08.28-05.22.42:215][ 29]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Scenes/Baxter-Scene.Baxter-Scene:PersistentLevel.Baxter-Scene
+[2022.08.28-05.23.08:609][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.08.28-05.23.08:676][  2]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Baxter-Scene_Auto1F6F6482E4A81BC9C74D23A9D7F7D8CBA.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Autosaves/Game/Scenes/Baxter-Scene_Auto1.umap'
+[2022.08.28-05.23.08:678][  2]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/Baxter-Scene' took 0.089
+[2022.08.28-05.23.08:678][  2]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.089
+[2022.08.28-05.26.35:580][522]BlueprintLog: New page: Compile Baxter-Scene
+[2022.08.28-05.26.35:603][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2022.08.28-05.26.36:259][588]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.08.28-05.26.36:323][588]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Baxter-SceneDEA2F4DA4A442C7585B8AD8B47FEB2AF.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/Baxter-Scene.umap'
+[2022.08.28-05.26.36:338][588]LogFileHelpers: Saving map 'Baxter-Scene' took 0.100
+[2022.08.28-05.26.36:351][588]AssetCheck: New page: Asset Save: Baxter-Scene
+[2022.08.28-05.26.36:351][588]LogContentValidation: Display: Validating World /Game/Scenes/Baxter-Scene.Baxter-Scene
+[2022.08.28-05.27.41:752][877]BlueprintLog: New page: Compile Baxter-Scene
+[2022.08.28-05.27.41:789][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2022.08.28-05.27.45:430][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.08.28-05.27.45:493][233]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Baxter-SceneDC701D284DC38D8A179E97885CCE987E.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/Baxter-Scene.umap'
+[2022.08.28-05.27.45:508][233]LogFileHelpers: Saving map 'Baxter-Scene' took 0.098
+[2022.08.28-05.27.45:518][233]AssetCheck: New page: Asset Save: Baxter-Scene
+[2022.08.28-05.27.45:518][233]LogContentValidation: Display: Validating World /Game/Scenes/Baxter-Scene.Baxter-Scene
+[2022.08.28-05.28.07:922][297]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/CatapultTestFCA67E854969CAB751CB23A72E522B86.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Assets/Baxter_Assets/CatapultTest.uasset'
+[2022.08.28-05.28.07:937][297]AssetCheck: New page: Asset Save: CatapultTest
+[2022.08.28-05.28.07:937][297]LogContentValidation: Display: Validating Blueprint /Game/Assets/Baxter_Assets/CatapultTest.CatapultTest
+[2022.08.28-05.29.28:797][772]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/CatapultTest81323AD64D1CA64DC99CE58B379CC20E.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Assets/Baxter_Assets/CatapultTest.uasset'
+[2022.08.28-05.29.28:810][772]AssetCheck: New page: Asset Save: CatapultTest
+[2022.08.28-05.29.28:810][772]LogContentValidation: Display: Validating Blueprint /Game/Assets/Baxter_Assets/CatapultTest.CatapultTest
+[2022.08.28-05.30.49:561][543]LogSlate: Took 0.007923 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.08.28-05.32.08:915][391]BlueprintLog: New page: Compile CatapultTest
+[2022.08.28-05.32.08:962][391]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.08.28-05.32.09:472][433]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/CatapultTest7A2415104BDDD0B71F1120B9B4A684E7.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Assets/Baxter_Assets/CatapultTest.uasset'
+[2022.08.28-05.32.09:487][433]AssetCheck: New page: Asset Save: CatapultTest
+[2022.08.28-05.32.09:487][433]LogContentValidation: Display: Validating Blueprint /Game/Assets/Baxter_Assets/CatapultTest.CatapultTest
+[2022.08.28-05.32.10:526][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.08.28-05.32.10:591][528]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Baxter-SceneAF48A7354AC3FC0415E151BE5B1407C1.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/Baxter-Scene.umap'
+[2022.08.28-05.32.10:606][528]LogFileHelpers: Saving map 'Baxter-Scene' took 0.100
+[2022.08.28-05.32.10:617][528]AssetCheck: New page: Asset Save: Baxter-Scene
+[2022.08.28-05.32.10:617][528]LogContentValidation: Display: Validating World /Game/Scenes/Baxter-Scene.Baxter-Scene
+[2022.08.28-05.32.47:549][292]BlueprintLog: New page: Compile Baxter-Scene
+[2022.08.28-05.32.47:587][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.08.28-05.32.47:971][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.08.28-05.32.48:036][324]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Baxter-SceneA02A47514D241E15ED13558D5936F8FF.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/Baxter-Scene.umap'
+[2022.08.28-05.32.48:051][324]LogFileHelpers: Saving map 'Baxter-Scene' took 0.099
+[2022.08.28-05.32.48:065][324]AssetCheck: New page: Asset Save: Baxter-Scene
+[2022.08.28-05.32.48:065][324]LogContentValidation: Display: Validating World /Game/Scenes/Baxter-Scene.Baxter-Scene
+[2022.08.28-05.33.28:653][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.08.28-05.33.28:718][ 87]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Baxter-SceneF9E88E9B481BA9C6E39FE1ACFFDB92BB.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/Baxter-Scene.umap'
+[2022.08.28-05.33.28:732][ 87]LogFileHelpers: Saving map 'Baxter-Scene' took 0.099
+[2022.08.28-05.33.28:743][ 87]AssetCheck: New page: Asset Save: Baxter-Scene
+[2022.08.28-05.33.28:743][ 87]LogContentValidation: Display: Validating World /Game/Scenes/Baxter-Scene.Baxter-Scene
+[2022.08.28-05.33.34:297][680]BlueprintLog: New page: Compile Baxter-Scene
+[2022.08.28-05.33.34:333][680]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.08.28-05.33.34:779][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.08.28-05.33.34:842][718]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Baxter-Scene8AB5C44942B37A72816CF9B98818EE27.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/Baxter-Scene.umap'
+[2022.08.28-05.33.34:860][718]LogFileHelpers: Saving map 'Baxter-Scene' took 0.103
+[2022.08.28-05.33.34:873][718]AssetCheck: New page: Asset Save: Baxter-Scene
+[2022.08.28-05.33.34:873][718]LogContentValidation: Display: Validating World /Game/Scenes/Baxter-Scene.Baxter-Scene
+[2022.08.28-05.34.07:067][209]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /DA_Assets/DeviceCommunication/DA_Tracker.DA_Tracker
+[2022.08.28-05.36.13:736][292]BlueprintLog: New page: Compile Baxter-Scene
+[2022.08.28-05.36.13:738][292]LogBlueprint: Warning: [Compiler PersistentLevel.Baxter-Scene] Could not find the function 'Get Relative Rotation' called from  Get Relative Rotation
+[2022.08.28-05.36.13:778][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.08.28-05.36.14:757][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.08.28-05.36.14:823][378]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Baxter-Scene4D377CD248F6B6260660E2AA5A5B067E.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/Baxter-Scene.umap'
+[2022.08.28-05.36.14:838][378]LogFileHelpers: Saving map 'Baxter-Scene' took 0.103
+[2022.08.28-05.36.14:849][378]AssetCheck: New page: Asset Save: Baxter-Scene
+[2022.08.28-05.36.14:849][378]LogContentValidation: Display: Validating World /Game/Scenes/Baxter-Scene.Baxter-Scene
+[2022.08.28-05.36.21:658][ 39]BlueprintLog: New page: Compile Baxter-Scene
+[2022.08.28-05.36.21:697][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.08.28-05.36.23:344][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.08.28-05.36.23:409][187]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Baxter-Scene65217A404390EAEABA74AB9FC3371F1C.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/Baxter-Scene.umap'
+[2022.08.28-05.36.23:424][187]LogFileHelpers: Saving map 'Baxter-Scene' took 0.101
+[2022.08.28-05.36.23:434][187]AssetCheck: New page: Asset Save: Baxter-Scene
+[2022.08.28-05.36.23:434][187]LogContentValidation: Display: Validating World /Game/Scenes/Baxter-Scene.Baxter-Scene
+[2022.08.28-05.39.45:832][175]BlueprintLog: New page: Compile CatapultTest
+[2022.08.28-05.39.45:898][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.08.28-05.39.46:466][208]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/CatapultTest01861EEE47D4AD6DB96986AEEDAFA1E3.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Assets/Baxter_Assets/CatapultTest.uasset'
+[2022.08.28-05.39.46:482][208]AssetCheck: New page: Asset Save: CatapultTest
+[2022.08.28-05.39.46:482][208]LogContentValidation: Display: Validating Blueprint /Game/Assets/Baxter_Assets/CatapultTest.CatapultTest
+[2022.08.28-05.39.54:684][827]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/CatapultTest963948844307B9BA8D49718D91B8D9F0.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Assets/Baxter_Assets/CatapultTest.uasset'
+[2022.08.28-05.39.54:697][827]AssetCheck: New page: Asset Save: CatapultTest
+[2022.08.28-05.39.54:697][827]LogContentValidation: Display: Validating Blueprint /Game/Assets/Baxter_Assets/CatapultTest.CatapultTest
+[2022.08.28-05.41.47:601][242]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.08.28-05.41.47:686][245]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.08.28-05.41.48:255][259]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.08.28-05.41.48:350][262]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.08.28-05.43.56:672][591]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2022.08.28-05.43.56:775][591]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Baxter-SceneBA7CB2594481212E1750C189B5B91AF8.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/Baxter-Scene.umap'
+[2022.08.28-05.43.56:796][591]LogFileHelpers: Saving map 'Baxter-Scene' took 0.208
+[2022.08.28-05.43.56:812][591]AssetCheck: New page: Asset Save: Baxter-Scene
+[2022.08.28-05.43.56:812][591]LogContentValidation: Display: Validating World /Game/Scenes/Baxter-Scene.Baxter-Scene
+[2022.08.28-05.53.48:488][937]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/CatapultTest294035144A514CD4581E08931F88942D.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Assets/Baxter_Assets/CatapultTest.uasset'
+[2022.08.28-05.53.48:504][937]AssetCheck: New page: Asset Save: CatapultTest
+[2022.08.28-05.53.48:504][937]LogContentValidation: Display: Validating Blueprint /Game/Assets/Baxter_Assets/CatapultTest.CatapultTest
+[2022.08.28-05.54.41:094][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.08.28-05.54.41:166][ 25]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Baxter-SceneB7F3EF0C471E066B9DE8AD9860286D90.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/Baxter-Scene.umap'
+[2022.08.28-05.54.41:180][ 25]LogFileHelpers: Saving map 'Baxter-Scene' took 0.111
+[2022.08.28-05.54.41:193][ 25]AssetCheck: New page: Asset Save: Baxter-Scene
+[2022.08.28-05.54.41:193][ 25]LogContentValidation: Display: Validating World /Game/Scenes/Baxter-Scene.Baxter-Scene
+[2022.08.28-06.00.55:670][106]BlueprintLog: New page: Compile Baxter-Scene
+[2022.08.28-06.00.55:718][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.08.28-06.00.56:197][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.08.28-06.00.56:271][143]LogSavePackage: Moving '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Saved/Baxter-Scene5564812D447C781D1EDC51961A402871.tmp' to '../../../../../../Users/USER/Documents/UTS Github Repositories/DataArena/ProjectDAGR/Content/Scenes/Baxter-Scene.umap'
+[2022.08.28-06.00.56:286][143]LogFileHelpers: Saving map 'Baxter-Scene' took 0.116
+[2022.08.28-06.00.56:303][143]AssetCheck: New page: Asset Save: Baxter-Scene
+[2022.08.28-06.00.56:303][143]LogContentValidation: Display: Validating World /Game/Scenes/Baxter-Scene.Baxter-Scene
