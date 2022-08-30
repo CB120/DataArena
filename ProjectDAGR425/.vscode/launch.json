@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ProjectDAGR (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ProjectDAGR Linux Debug Build",
+			"program": "/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Binaries/Linux/ProjectDAGR-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ProjectDAGR (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ProjectDAGR Linux DebugGame Build",
+			"program": "/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Binaries/Linux/ProjectDAGR-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ProjectDAGR (Development)",
+			"request": "launch",
+			"preLaunchTask": "ProjectDAGR Linux Development Build",
+			"program": "/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Binaries/Linux/ProjectDAGR",
+			"args": [
+			],
+			"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ProjectDAGR (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ProjectDAGR Linux Shipping Build",
+			"program": "/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Binaries/Linux/ProjectDAGR-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ProjectDAGR (Test)",
+			"request": "launch",
+			"preLaunchTask": "ProjectDAGR Linux Test Build",
+			"program": "/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Binaries/Linux/ProjectDAGR-Linux-Test",
+			"args": [
+			],
+			"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ProjectDAGREditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ProjectDAGREditor Linux Debug Build",
+			"program": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject"
+			],
+			"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ProjectDAGREditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ProjectDAGREditor Linux DebugGame Build",
+			"program": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject"
+			],
+			"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ProjectDAGREditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ProjectDAGREditor Linux Development Build",
+			"program": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject"
+			],
+			"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+		}
+	]
+}

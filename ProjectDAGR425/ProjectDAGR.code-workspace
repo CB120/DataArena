@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "ProjectDAGR",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp",
+			"vadimcn.vscode-lldb",
+			"ms-vscode.mono-debug"
+		]
+	}
+}

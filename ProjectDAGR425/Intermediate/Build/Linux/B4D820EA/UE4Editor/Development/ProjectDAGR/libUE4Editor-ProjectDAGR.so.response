@@ -1,0 +1,9 @@
+"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/ProjectDAGR/ProjectDAGR.cpp.o"
+"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/ProjectDAGR/ProjectDAGRGameModeBase.cpp.o"
+"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/ProjectDAGR/ProjectDAGR.init.gen.cpp.o"
+"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/ProjectDAGR/ProjectDAGRGameModeBase.gen.cpp.o"
+ -soname="libUE4Editor-ProjectDAGR.so"
+ -rpath-link="/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Binaries/Linux"
+ -L"/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine/Engine/Binaries/Linux"
+ --start-group
+ --end-group
