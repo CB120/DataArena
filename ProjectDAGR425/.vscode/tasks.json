@@ -1,0 +1,1985 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ProjectDAGR Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Mac",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"IOS",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"Linux",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"LinuxAArch64",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"TVOS",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR XXX Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR XXX DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR XXX Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR XXX Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"Shipping",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGR XXX Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGR XXX Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGR",
+				"XXX",
+				"Test",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Linux",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Linux",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGREditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Linux",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Linux",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Linux",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGREditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Linux",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Linux",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Linux",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGREditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Linux",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Mac",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Mac",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGREditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Mac",
+				"Debug",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Mac",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Mac",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGREditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Mac",
+				"DebugGame",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Mac",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Mac",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectDAGREditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		},
+		{
+			"label": "ProjectDAGREditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ProjectDAGREditor",
+				"Mac",
+				"Development",
+				"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/ProjectDAGR.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/ue4.25.4.linux_nDisplay_patched/UnrealEngine"
+			}
+		}
+	]
+}

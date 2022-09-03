@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/.vscode": true,
+		"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Content": true,
+		"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/DerivedDataCache": true,
+		"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Intermediate": true,
+		"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Saved": true,
+		"/mnt/local2/proj/GamesStudio/2022/ProjectDAGR425/Plugins/DA_Assets/Content": true
+	}
+}
