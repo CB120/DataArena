@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ProjectDAGR-6146.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\USER\Documents\UTS Github Repositories\DataArena\ProjectDAGR425\Intermediate\Build\Win64\ProjectDAGREditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\USER\Documents\UTS Github Repositories\DataArena\ProjectDAGR425\Intermediate\Build\Win64\UE4Editor\Development\ProjectDAGR\CatapultGameMode.cpp.obj"
+"C:\Users\USER\Documents\UTS Github Repositories\DataArena\ProjectDAGR425\Intermediate\Build\Win64\UE4Editor\Development\ProjectDAGR\ProjectDAGR.cpp.obj"
+"C:\Users\USER\Documents\UTS Github Repositories\DataArena\ProjectDAGR425\Intermediate\Build\Win64\UE4Editor\Development\ProjectDAGR\ProjectDAGRGameModeBase.cpp.obj"
+"C:\Users\USER\Documents\UTS Github Repositories\DataArena\ProjectDAGR425\Intermediate\Build\Win64\UE4Editor\Development\ProjectDAGR\CatapultGameMode.gen.cpp.obj"
+"C:\Users\USER\Documents\UTS Github Repositories\DataArena\ProjectDAGR425\Intermediate\Build\Win64\UE4Editor\Development\ProjectDAGR\ProjectDAGR.init.gen.cpp.obj"
+"C:\Users\USER\Documents\UTS Github Repositories\DataArena\ProjectDAGR425\Intermediate\Build\Win64\UE4Editor\Development\ProjectDAGR\ProjectDAGRGameModeBase.gen.cpp.obj"
+"C:\Users\USER\Documents\UTS Github Repositories\DataArena\ProjectDAGR425\Intermediate\Build\Win64\UE4Editor\Development\ProjectDAGR\Default.rc2.res"
+/OUT:"C:\Users\USER\Documents\UTS Github Repositories\DataArena\ProjectDAGR425\Intermediate\Build\Win64\UE4Editor\Development\ProjectDAGR\UE4Editor-ProjectDAGR-6146.lib"
+/INCLUDE:IMPLEMENT_MODULE_ProjectDAGR
