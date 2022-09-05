@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"H:\\ProjectDAGR_Updated\\ProjectDAGR425\\Source\\ProjectDAGR\\ProjectDAGR.Build.cs",
-		"H:\\ProjectDAGR_Updated\\ProjectDAGR425\\Source\\ProjectDAGR.Target.cs",
-		"H:\\ProjectDAGR_Updated\\ProjectDAGR425\\Source\\ProjectDAGREditor.Target.cs"
+		"C:\\Users\\USER\\Documents\\UTS Github Repositories\\DataArena\\ProjectDAGR425\\Source\\ProjectDAGR\\ProjectDAGR.Build.cs",
+		"C:\\Users\\USER\\Documents\\UTS Github Repositories\\DataArena\\ProjectDAGR425\\Source\\ProjectDAGR.Target.cs",
+		"C:\\Users\\USER\\Documents\\UTS Github Repositories\\DataArena\\ProjectDAGR425\\Source\\ProjectDAGREditor.Target.cs"
 	],
 	"EngineVersion": "4.25.4"
 }

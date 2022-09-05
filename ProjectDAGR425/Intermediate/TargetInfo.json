@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "ProjectDAGR",
-			"Path": "H:\\ProjectDAGR_Updated\\ProjectDAGR425\\Source\\ProjectDAGR.Target.cs",
+			"Path": "C:\\Users\\USER\\Documents\\UTS Github Repositories\\DataArena\\ProjectDAGR425\\Source\\ProjectDAGR.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "ProjectDAGREditor",
-			"Path": "H:\\ProjectDAGR_Updated\\ProjectDAGR425\\Source\\ProjectDAGREditor.Target.cs",
+			"Path": "C:\\Users\\USER\\Documents\\UTS Github Repositories\\DataArena\\ProjectDAGR425\\Source\\ProjectDAGREditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
