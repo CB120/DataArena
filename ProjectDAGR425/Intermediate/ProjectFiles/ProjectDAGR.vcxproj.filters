@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ProjectDAGR.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4050F58F-993F-477A-A7FA-113B24D5C5CC}</UniqueIdentifier>
+      <UniqueIdentifier>{8D0BC17D-BEB3-4A2D-AEBE-95AC7BEB8EF1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProjectDAGR.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\ProjectDAGR.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{94685C69-73C0-4132-A35C-39C182D6DD5B}</UniqueIdentifier>
+      <UniqueIdentifier>{A7A7935F-29C7-4DB5-8A8A-08C0980FA992}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,17 +28,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\Linux">
-      <UniqueIdentifier>{4E9E0B75-4EE0-4320-BF18-6244923595E1}</UniqueIdentifier>
+      <UniqueIdentifier>{46FC412D-79E2-46C5-A8B2-347F743701BF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Linux\LinuxEngine.ini">
       <Filter>Config\Linux</Filter>
     </None>
     <Filter Include="Source\ProjectDAGR">
-      <UniqueIdentifier>{BEC713AE-0416-44B2-9DD1-9F62038EFCA7}</UniqueIdentifier>
+      <UniqueIdentifier>{42DC565F-711A-40B5-A11D-DD42163B093B}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\ProjectDAGR\ProjectDAGRGameModeBase.cpp">
-      <Filter>Source\ProjectDAGR</Filter>
-    </ClCompile>
     <None Include="..\..\Source\ProjectDAGR\ProjectDAGR.Build.cs">
       <Filter>Source\ProjectDAGR</Filter>
     </None>
@@ -48,20 +45,23 @@
     <ClInclude Include="..\..\Source\ProjectDAGR\ProjectDAGR.h">
       <Filter>Source\ProjectDAGR</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectDAGR\ProjectDAGRGameModeBase.cpp">
+      <Filter>Source\ProjectDAGR</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\ProjectDAGR\ProjectDAGRGameModeBase.h">
       <Filter>Source\ProjectDAGR</Filter>
     </ClInclude>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{959B6395-B881-46CF-93EF-FE13FCE998BE}</UniqueIdentifier>
+      <UniqueIdentifier>{00FF36AC-95DB-421D-9262-9A4AA781283E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\DA_Assets">
-      <UniqueIdentifier>{367D3E1F-774E-461E-9CAD-D13D3B1EC4A1}</UniqueIdentifier>
+      <UniqueIdentifier>{4BB88D34-513E-45E5-84FB-463AA2BADDDC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\DA_Assets\DA_Assets.uplugin">
       <Filter>Plugins\DA_Assets</Filter>
     </None>
     <Filter Include="Plugins\DA_Assets\Resources">
-      <UniqueIdentifier>{CBD13E6D-6B38-4324-861A-DCA6F1552391}</UniqueIdentifier>
+      <UniqueIdentifier>{ED6A91D0-CB82-4913-8B67-A65006D50E27}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\DA_Assets\Resources\Icon128.png">
       <Filter>Plugins\DA_Assets\Resources</Filter>
