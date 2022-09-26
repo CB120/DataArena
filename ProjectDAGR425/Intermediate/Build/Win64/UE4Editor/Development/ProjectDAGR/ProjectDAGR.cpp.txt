@@ -1,2 +1,2 @@
-C:\Users\edwar\OneDrive\Desktop\Data Arena\DataArena\ProjectDAGR425\Intermediate\Build\Win64\UE4Editor\Development\ProjectDAGR\Definitions.ProjectDAGR.h
-C:\Users\edwar\OneDrive\Desktop\Data Arena\DataArena\ProjectDAGR425\Source\ProjectDAGR\ProjectDAGR.h
+C:\Users\ethan\Documents\GitHub Repositories\2022\DataArena\ProjectDAGR425\Intermediate\Build\Win64\UE4Editor\Development\ProjectDAGR\Definitions.ProjectDAGR.h
+C:\Users\ethan\Documents\GitHub Repositories\2022\DataArena\ProjectDAGR425\Source\ProjectDAGR\ProjectDAGR.h
