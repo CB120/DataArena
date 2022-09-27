@@ -1,0 +1,3 @@
+C:\Users\ethan\Documents\GitHub Repositories\2022\DataArena\ProjectDAGR425\Intermediate\Build\Win64\UE4Editor\Development\ProjectDAGR\Definitions.ProjectDAGR.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
