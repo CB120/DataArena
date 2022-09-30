@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ProjectDAGR",
+			"Path": "C:\\Users\\ethan\\Documents\\GitHub Repositories\\2022\\DataArena\\ProjectDAGR425\\Source\\ProjectDAGR.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ProjectDAGREditor",
+			"Path": "C:\\Users\\ethan\\Documents\\GitHub Repositories\\2022\\DataArena\\ProjectDAGR425\\Source\\ProjectDAGREditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
