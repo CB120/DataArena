@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"/mnt/local2/proj/FEIT/GamesStudio/2022/DAGR_Git/DataArena/ProjectDAGR425/Source/ProjectDAGR/ProjectDAGR.Build.cs",
-		"/mnt/local2/proj/FEIT/GamesStudio/2022/DAGR_Git/DataArena/ProjectDAGR425/Source/ProjectDAGR.Target.cs",
-		"/mnt/local2/proj/FEIT/GamesStudio/2022/DAGR_Git/DataArena/ProjectDAGR425/Source/ProjectDAGREditor.Target.cs"
+		"C:\\Users\\ethan\\Documents\\GitHub Repositories\\2022\\DataArena\\ProjectDAGR425\\Source\\ProjectDAGR\\ProjectDAGR.Build.cs",
+		"C:\\Users\\ethan\\Documents\\GitHub Repositories\\2022\\DataArena\\ProjectDAGR425\\Source\\ProjectDAGR.Target.cs",
+		"C:\\Users\\ethan\\Documents\\GitHub Repositories\\2022\\DataArena\\ProjectDAGR425\\Source\\ProjectDAGREditor.Target.cs"
 	],
 	"EngineVersion": "4.25.4"
 }
